@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav{
+    background-color: springgreen;
+       
+}
+#cont{
+    display: flex;
+    background-color: chocolate;
+    padding-left: 13px;
+    margin: 2px;
+    gap: 41px;
+    font-size: 30px;
+    list-style-type: none;
+    
+}
+#Saka{
+    background-color: greenyellow;    
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    font-size: 20px;
+    gap: 20px;
+    list-style-type: none;
+    display: none;
+}
+#Non{
+    background-color: red; 
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    font-size: 20px;
+    gap: 15%;
+    list-style-type: none;
+    display: none;
+    
+}
+#Dr{
+    background-color: fuchsia;
+    padding-left: 20px;
+    margin: 0px;
+    position: absolute;
+   font-size: 20px;
+   gap: 20px;
+   list-style-type: none;
+   display: none;
+}
+a{
+    text-transform: capitalize;
+    margin-left: 20px;
+    padding: 0px; 
+    text-decoration: none; 
+    display: block;  
+}
+
+a:hover{
+    background-color: yellow;
+    color: red;
+    display: block;
+}
+#Ve:hover #Saka{
+    background-color: wheat;
+    display: block;
+    padding: 0pc;
+}
+#pa:hover #Non{
+    background-color: hotpink;
+    display: block;
+    margin: 0px;
+}
+#po:hover #Dr{
+    background-color: mediumspringgreen;
+    display: block;
+
+}
+
+
+
+
+
